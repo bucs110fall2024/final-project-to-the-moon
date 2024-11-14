@@ -6,13 +6,12 @@
 
 ## Team Members
 
-<< List team member names >>
-
+Alessandro Berganza
 ***
 
 ## Project Description
 
-<< Give an overview of your project >>
+My idea would be based on the general game concept of chutes and ladders, in which you and another person compete to be the first to reach the top. Moves would be decided using two dice. There would also be regular places on the boards, spots that make you go backward, spots that take you up using a ladder, and slides that make you go down. Possibly, I may include times when you need to play a mini-game(multiplication or trivia questions) to stay at a specific location or return to your previous spot. 
 
 ***    
 
@@ -30,11 +29,11 @@
 
 ### Features
 
-1. << Feature 1 >>
-2. << Feature 2 >>
-3. << Feature 3 >>
-4. << Feature 4 >>
-5. << Feature 5 >>
+1. Start Menu
+2. Moveable Characters
+3. Slides & Ladders
+4. Mini Games
+5. End Screen
 
 ### Classes
 
