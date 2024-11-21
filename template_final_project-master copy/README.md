@@ -37,7 +37,8 @@ My idea would be based on the general game concept of chutes and ladders, in whi
 
 ### Classes
 
-- << You should have a list of each of your classes with a description >>
+1.GameBoard - creates a game board with ladders and slides, and creates two six-sided dice
+2.Player - creates two players to battle it out
 
 ## ATP
 

@@ -1,33 +1,52 @@
-
+from src.Player import Player
+from src.GameBoard import GameBoard
+import pygame
 class Controller:
-  
   def __init__(self):
-    #setup pygame data
-    
+    pass
+  #setup pygame data
   def mainloop(self):
-    #select state loop
-    
+   """
+   docstring
+   """
+   while(True): #this can also be a variable instead of just True
+      #1. Handle events
+      for event in pygame.event.get():
+           if event.type == pygame.QUIT:
+               pygame.quit()
+               exit()
+
+      #2. detect collisions and update models
+
+      #3. Redraw next frame
+
+      #4. Display next frame
+      pygame.display.flip()
   
-  ### below are some sample loop states ###
+
+### below are some sample loop states ###
 
   def menuloop(self):
+    pass
+  
+    #event loop
+
+    #update data
+
+    #redraw
     
-      #event loop
-
-      #update data
-
-      #redraw
-      
   def gameloop(self):
-      #event loop
+    pass
+    #event loop
 
-      #update data
+    #update data
 
-      #redraw
-    
+    #redraw
+  
   def gameoverloop(self):
-      #event loop
+    pass
+    #event loop
 
-      #update data
+    #update data
 
-      #redraw
+    #redraw
