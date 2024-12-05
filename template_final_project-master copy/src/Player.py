@@ -15,4 +15,3 @@ class Player:
             distance (int): distance moved 
         """
         pass
-    
