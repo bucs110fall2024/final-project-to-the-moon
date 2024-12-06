@@ -1,13 +1,14 @@
 import pygame
-#import your controller
+from src.Controller import Controller
 
 def main():
     pygame.init()
-    #Create an instance on your controller object
-    #Call your mainloop
-    
-    ###### NOTHING ELSE SHOULD GO IN main(), JUST THE ABOVE 3 LINES OF CODE ######
+    WIDTH, HEIGHT = 600, 700
+    screen = pygame.display.set_mode((WIDTH, HEIGHT))
+    pygame.display.set_caption("Slides and Ladders")
 
-# https://codefather.tech/blog/if-name-main-python/
+    controller = Controller(screen)
+    controller.run()
+
 if __name__ == '__main__':
     main()
