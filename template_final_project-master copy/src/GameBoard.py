@@ -2,7 +2,7 @@ import pygame
 
 class GameBoard:
     def __init__(self, screen, grid_size=10, cell_size=50, origin=(50, 100)):
-        """Create the board game 
+        """Create the game board 
 
         Args:
             screen (pygame): The screen in which the game board will be created
@@ -18,7 +18,7 @@ class GameBoard:
         self.slides = {17: 4, 19: 7, 54: 34, 64: 60, 87: 24, 95: 75, 99: 78}
 
     def draw_board(self):
-        """Draw the board which consists of a grid
+        """Draw the game board which consists of a grid
         """
         
         for row in range(self.grid_size):

@@ -7,7 +7,7 @@ class UserInterface:
         Args:
             screen (pygame): The screen where the User Interface will be drawed on 
             game_board (GameBoard): Utilizes the gameboard class
-            game_controller (GameController): utilizes the gameboard class
+            game_controller (GameController): utilizes the gamecontroller class
         """
         self.screen = screen
         self.game_board = game_board
@@ -28,7 +28,7 @@ class UserInterface:
         pygame.display.flip()  
 
     def draw_game_screen(self):
-        """Draw the board game, dice roll buttom, and player turn, current dice roll, and current players' positions
+        """Draw the game board, dice roll buttom, and player turn, current dice roll, and current players' positions
         """
         self.screen.fill((255, 255, 255)) 
         self.game_board.draw_board()  
